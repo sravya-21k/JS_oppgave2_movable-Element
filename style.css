@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  padding: 10px;
+  background-image: url("images/grass.jpg"); /* Ensure the correct path */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Cover the entire body area with the image */
+  color: #ffffff; /* White text color for contrast */
+  text-align: center; /* Center text alignment */
+}
+
+#movable_box {
+  width: 100px;
+  height: 100px;
+  background-image: url(/images/puppy.jpg); /* Placeholder image URL */
+  background-size: cover; /* Make the image cover the entire box */
+  background-position: center; /* Center the image */
+  border-radius: 50%; /* Make it circular if desired */
+  position: absolute; /* Necessary for moving with JavaScript */
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+#movable_box:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+  box-shadow: 0 8px 20px rgba(209, 7, 47, 0.7); /* Stronger shadow on hover */
+}
