@@ -11,7 +11,7 @@ body {
 #movable_box {
   width: 100px;
   height: 100px;
-  background-image: url(/images/puppy.jpg); /* Placeholder image URL */
+  background-image: url(/images/puppy.png); /* Placeholder image URL */
   background-size: cover; /* Make the image cover the entire box */
   background-position: center; /* Center the image */
   border-radius: 50%; /* Make it circular if desired */
