@@ -20,7 +20,7 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  background-image: url(/images/red-granite-round-stone-YeRa9RF-600-removebg-preview.png);
+  background-image: url("./images/stone.png");
   background-size: cover;
 }
 
